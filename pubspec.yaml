@@ -4,14 +4,14 @@ version: 2.3.15
 homepage: https://github.com/beerstorm-net/geoflutterfire2
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
-  flutter: ">=1.17.0"
+  sdk: ">=3.3.3 <4.0.0"
+#  flutter: ">=1.17.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  cloud_firestore: ^4.4.4
-  rxdart: ^0.27.7
+  cloud_firestore: any
+  rxdart: any
 
 dev_dependencies:
   flutter_test:
